@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exam</title>
+  </head>
+  <body>
+    <div class="displayedOne">
+      <header class="headerName">
+        <div class="bywhom">Github Version by Ulugbek</div>
+      </header>
+      <div class="mainDiv">
+        <div class="userPlace">
+          <form>
+            <label for="name">Enter User's Name:</label>
+            <input type="text" id="user1" placeholder="username" />
+          </form>
+        </div>
+        <div class="repoPlace">
+          <form>
+            <label for="name">Enter Repository:</label>
+            <input type="text" id="user2" placeholder="repository" />
+          </form>
+        </div>
+        <div class="branchPlace">
+          <form>
+            <label for="name">Enter Branch:</label>
+            <input type="text" id="user3" placeholder="Branch" />
+          </form>
+        </div>
+      </div>
+      <div class="startBtnDiv">
+        <button class="startButton" onclick="savedata()">Start</button>
+      </div>
+    </div>
+    <div class="NodisplayedOne">
+      <header class="headerName">
+        <div class="bywhom">Github Version by Ulugbek</div>
+      </header>
+      <div class="header2">
+        <input type="text" class="searchbox" placeholder="Search For a User" />
+        <button class="searchbutton">Go</button>
+      </div>
+      <div class="listofusers">
+        <div class="obshiy usernameforList"></div>
+        <div class="obshiy repoforList"></div>
+        <div class="obshiy branchforList"></div>
+        <button class="deleteBtn">DeleteThisRepository</button>
+      </div>
+    </div>
+  </body>
+</html>
